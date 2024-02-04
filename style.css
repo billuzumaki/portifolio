@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #161513;
+}
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+
+.apresentation {
+  border: blue 2px solid;
+  display: flex;
+  color: #fff;
+}
+
+.apresentation img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  border: blue 3px solid;
+}
+
+.socialMedia {
+  height: 250px;
+  width: 250px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.socialMedia li{
+  list-style: none;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px;
+  
+}
+
+.socialMedia a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+.aboutMe {
+  display: flex;
+  max-height: 100vh;
+  width: 80%;
+  padding: 20px;
+  border: 2px solid blue;
+  margin-left: 20px;
+  color: #ffff;
+}
+
+.cardsProject {
+ margin-left: 10px;
+ margin: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: blue solid 2px;
+  color: #fff;
+}
